@@ -123,8 +123,8 @@
    width: 60%;
 }
 .columns{
-   content: "";
-   clear: both;
+   /* content: "";
+   clear: both; */
    display: table;
 }
    .columns_column__list{
