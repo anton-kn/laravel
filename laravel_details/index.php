@@ -4,13 +4,13 @@
       <meta charset="utf-8">
       <link rel="stylesheet" href="/css/style.css">
       <link rel="stylesheet" href="/css/general.css">
-      <title>Заметки</title>
+      <title>About Laravel</title>
    </head>
    <body>
       <header class="site_header">
          <div class="center">
             <a class="site_logo" href="/">
-               <span class="site_logo__short_name">Заметки</span>
+               <span class="site_logo__short_name">About Laravel</span>
             </a>
             <nav class="site_menu">
                <ul class="site_menu__list">
@@ -41,8 +41,12 @@
                <div class="columns">
                   <div class="columns_column">
                      <div class="content">
-                        <h2>О деталях </h2>
-                        <p>На данном сайте мы будем писать небольшие заметки о том, каким образом работает фреймворк Laravel и немного о PHP.</p>
+                        <h2>О сайте</h2>
+                        <p>Данный сайт представляет из себя своего рода блокнот, в котором мы будем делать заметки про Laravel и PHP.</p>
+                        <h2>Laravel</h2>
+                        <p>В этом разделе мы постараемся понять как устроен и как работает фреймворк Laravel. Будем делать небольшие заметки на возникающие вопросы. Пояснять возникающие моменты при изучении Laravel.</p>
+                        <h2>PHP</h2>
+                        <p>В разделе PHP будем делать заметки об инструментах самого языка программирования. Это функции, генераторы и т.д.</p>
                      </div>
                   </div>
 
