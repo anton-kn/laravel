@@ -183,6 +183,13 @@
    line-height: 1.25;
 }
 
+code{
+   display: block;
+   font-size: 14px;
+   width: 200px;
+   color: #ca473f;
+}
+
 /* Ссылки на для связи */
 .site_footer_links{
    padding: 30px 0;
