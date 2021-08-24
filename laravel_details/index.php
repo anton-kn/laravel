@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta charset="utf-8">
       <link rel="stylesheet" href="/css/style.css">
       <link rel="stylesheet" href="/css/general.css">
@@ -29,6 +30,30 @@
                </ul>
             </nav>
          </div>
+          <div id="openNav" class="sidenav">
+              <span onclick="openNav();">&#9776</span>
+          </div>
+          <div class="sidenav_block">
+              <div class="sidenav_block__span">
+                  <span onclick="closeNav();">&times;</span>
+              </div>
+              <nav class="site_menu__sidenav">
+                  <ul class="site_menu__list__sidenav">
+                      <li class="site_menu__item__sidenav">
+                          <a class="site_menu__link" href="/">Домой</a>
+                      </li>
+                      <li class="site_menu__item__sidenav">
+                          <a class="site_menu__link" href="/list.php">Laravel</a>
+                      </li>
+                      <li class="site_menu__item__sidenav">
+                          <a class="site_menu__link" href="#">PHP</a>
+                      </li>
+                      <li class="site_menu__item__sidenav">
+                          <a class="site_menu__link" href="#">Обо мне</a>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
       </header>
       <div class="page_content">
          <div class="page_banner">
@@ -73,5 +98,6 @@
             <span>&#169 А.В.Князев, 2020-2021</span>
          </div>
       </footer>
+   <script src="js/index.js"></script>
    </body>
 </html>

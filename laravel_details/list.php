@@ -39,6 +39,16 @@
          <div class="center">
             <div class="page_content__padding">
                <div class="columns">
+                   <div class="columns_column__list">
+                       <div class="columns_column__list_sections">
+                           <h2>Темы</h2>
+                           <ul class="columns_column__list_items">
+                               <li class="columns_column__list_item"><a href="#"> Тема 1</a></li>
+                               <li class="columns_column__list_item"><a href="#"> Тема 2</a></li>
+                               <li class="columns_column__list_item"><a href="#"> Тема 3</a></li>
+                           </ul>
+                       </div>
+                   </div>
                   <div class="columns_column">
                      <div class="content">
                         <h2>Тема 1</h2>
@@ -59,16 +69,6 @@ $collection->firstWhere('name', 'Linda');
                              </code>
                          </pre>
                         
-                     </div>
-                  </div>
-                  <div class="columns_column__list">
-                     <div class="columns_column__list_sections">
-                        <h2>Темы</h2>
-                        <ul class="columns_column__list_items">
-                           <li class="columns_column__list_item"><a href="#"> Тема 1</a></li>
-                           <li class="columns_column__list_item"><a href="#"> Тема 2</a></li>
-                           <li class="columns_column__list_item"><a href="#"> Тема 3</a></li>
-                        </ul>
                      </div>
                   </div>
                </div>
